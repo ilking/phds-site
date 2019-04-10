@@ -2,6 +2,7 @@
   <div id="app">
     <NavigationBar />
     <div class="content-area">
+      getting real testy
       <router-view />
     </div>
   </div>
