@@ -4,6 +4,18 @@ import Vuex from "vuex";
 Vue.use(Vuex);
 
 const state = {
+  menuLinks: [
+    { path: "/", text: "Home", name: "home" },
+    { path: "/about", text: "About", name: "about" },
+    { path: "/", text: "Home", name: "home" },
+    { path: "/", text: "Home", name: "home" },
+    { path: "/", text: "Home", name: "home" },
+    { path: "/", text: "Home", name: "home" },
+    { path: "/", text: "Home", name: "home" },
+    { path: "/", text: "Home", name: "home" },
+    { path: "/", text: "Home", name: "home" },
+    { path: "/", text: "Home", name: "home" }
+  ],
   menu: [
     {
       title: "Navigation",

@@ -1,21 +1,33 @@
 <template>
   <div class="home">
-    <NavMenu />
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <div class="hero-images">heroimages</div>
+
+    <div class="content-area">content area</div>
+
+    <SiteFooter />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import NavMenu from "@/components/NavMenu.vue";
-import HelloWorld from "@/components/HelloWorld.vue";
+import SiteFooter from "@/components/SiteFooter.vue";
 
 export default {
   name: "home",
   components: {
-    NavMenu,
-    HelloWorld
+    SiteFooter
   }
 };
 </script>
+
+<style lang="less">
+.home {
+  display: flex;
+  flex-flow: column nowrap;
+
+  .hero-images {
+    border: 1px solid red;
+    width: 100%;
+  }
+}
+</style>
