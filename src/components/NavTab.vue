@@ -1,6 +1,7 @@
 <template>
   <div class="navtab" @click="onClick">
-    <router-link to="name">{{ text }}</router-link>
+    <router-link to="name">{{ text }}</router-link
+    >test
   </div>
 </template>
 

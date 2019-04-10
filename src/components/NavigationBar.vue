@@ -1,8 +1,6 @@
 <template>
   <div class="topnavbar">
-    <div class="nav-logo">
-      <img src="../assets/phds-logo.png" />
-    </div>
+    <div class="nav-logo"><img src="../assets/phds-logo.png" />test</div>
     <div class="nav-list">
       <NavTab v-for="(route, index) in this.$store.state.menuLinks" :key="index" :path="route.path" :name="route.name" :text="route.text" />
     </div>

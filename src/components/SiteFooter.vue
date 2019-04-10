@@ -6,7 +6,7 @@
     <div class="footer-links">
       <router-link v-for="(route, index) in routerLinks" :to="route.path" :key="index">{{ route.text }}</router-link>
       <a href="mailto:webmaster@phds.org">Web Master: Ian King</a>
-      <a href="https://www.thinkpodsolutions.com">Think Pod</a>
+      <a href="https://www.thinkpodsolutions.com">Think Pod</a>test
     </div>
     <div class="footer-logo right nohover">
       <img src="../assets/logo.png" />
